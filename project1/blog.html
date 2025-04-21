@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogs</title>
+    <link rel="stylesheet" href="eduford.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- -------- Header section------- -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="eduford.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Programs For 2024</h1>
+    </section>
+
+    <!-- --------------------------Blog Section-------------------- -->
+
+    <section class="blog">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/certificate.jpg" alt="" />
+          <h2>Our Certificate & Online Programs For 2024</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+            provident veritatis et voluptas, nostrum maxime aperiam similique
+            necessitatibus, in minus pariatur adipisci architecto esse
+            temporibus hic quas quidem neque obcaecati.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
+            accusantium voluptate officiis maiores quis at sunt corrupti,
+            necessitatibus doloribus, accusamus placeat nulla. Enim laborum
+            itaque sequi eveniet eius minus ex! Molestias deleniti non nobis
+            voluptate asperiores temporibus vitae eveniet nam quos commodi
+            molestiae fugit ut, vero natus repellendus aut unde, corporis itaque
+            maiores atque maxime quae animi porro? Tenetur, repellat!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolores
+            sequi nihil cupiditate molestiae repellat iusto quisquam labore
+            facilis necessitatibus, cumque voluptate molestias rem, doloribus
+            ea, aut quam repudiandae perferendis? Saepe ullam sit ipsam, veniam
+            voluptatum sapiente, quisquam reprehenderit error animi ducimus
+            consectetur aliquam reiciendis quasi totam tempore. Optio ex
+            blanditiis doloremque sint recusandae, maxime et temporibus aperiam
+            reprehenderit debitis!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi et
+            illum vero, porro temporibus mollitia modi recusandae quia earum,
+            inventore architecto impedit eaque praesentium quidem libero
+            sapiente. Necessitatibus, eligendi expedita?
+          </p>
+
+          <div class="comment">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter Email" />
+              <textarea rows="5" placeholder="Your comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">
+                POST COMMENT
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>34</span>
+          </div>
+          <div>
+            <span>AutoCAD</span>
+            <span>42</span>
+          </div>
+          <div>
+            <span>Journalism</span>
+            <span>22</span>
+          </div>
+          <div>
+            <span>Commerce</span>
+            <span>30</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------Footer-------- -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+        reiciendis blanditiis aperiam voluptate vel repellat quo nobis ut!
+        <br />
+        Nisi deserunt tempora libero ducimus. Deleniti, ullam tenetur error
+        tempore
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>Made With <i class="fa-regular fa-heart"></i> By Easy Tutorials</p>
+    </section>
+
+    <!-- ------------Javascript for toggle menu----------- -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
